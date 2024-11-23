@@ -124,8 +124,16 @@ img {
 }
 
 .hero {
-    background-color: #2e2f42;
+    background-image:
+     linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+     url(../images/bg-people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
     padding: 188px 0;
+    margin: 0 auto;
 }
 
 .hero-container { 
@@ -206,6 +214,22 @@ img {
 .features-item {
     width: calc((100% - 72px) / 4);
 }
+
+/* .features-item .icon {
+    fill: #2E2F42;
+} */
+
+.features-item > .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
 
 .features-subtitle {
     font-weight: 500;
