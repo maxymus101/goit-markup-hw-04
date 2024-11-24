@@ -401,8 +401,7 @@ img {
 
 .img-wrapper {
     position: relative;
-    overflow: hidden;
-
+    overflow: hidden;       
 }
 
 .overlay-content {
@@ -422,7 +421,7 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-wrapper:hover .overlay {
+.img-wrapper:hover .overlay-content {
     transform: translateY(0);
 }
 
@@ -509,7 +508,7 @@ img {
 
 .social-wrapper {
     display: block;
-    margin-bottom: 16px;
+    
 }
 
 .social-title {
@@ -518,6 +517,8 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
+
+    margin-bottom: 16px;
 }
 
 .footer-social-list {
