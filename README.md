@@ -1,1 +1,4 @@
-# goit-markup-hw-03
+# goit-markup-hw-04
+
+Practice with positioning elements. 
+SVG sprites, styling SVGs.
